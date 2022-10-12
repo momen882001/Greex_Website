@@ -17,7 +17,7 @@ function Signup() {
 
             <form class="login-form">
                 <div class="form-control">
-                    <input type="text" placeholder="Name" required/>
+                    <input type="text" placeholder="Username" required/>
                     <FontAwesomeIcon className="icon" icon={faUser} color="white" size="2x"/>
                 </div>
                 <div class="form-control">

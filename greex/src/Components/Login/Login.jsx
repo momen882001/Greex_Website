@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faLock, faAt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import imgLeft from '../../assets/3726696.svg'
 
@@ -21,11 +21,11 @@ function Login() {
 
             <form class="login-form">
                 <div class="form-control">
-                    <input type="text" placeholder="Username"/>
-                    <FontAwesomeIcon className="icon" icon={faUser} color="white" size="2x"/>
+                    <input type="email" placeholder="Email" required/>
+                    <FontAwesomeIcon className="icon" icon={faAt} color="white" size="2x"/>
                 </div>
                 <div class="form-control">
-                    <input type="password" placeholder="Password"/>
+                    <input type="password" placeholder="Password" required/>
                     <FontAwesomeIcon className="icon" icon={faLock} color="white" size="2x" />
                 </div>
                 <button className="submit">Login</button>
@@ -34,7 +34,7 @@ function Login() {
                   <a href="">Forget Password?</a>
                   </Link>
                   <Link to="/signUp">
-                  <a href="">Creat an account ?</a>
+                  <a href="">Create an account ?</a>
                   </Link>
                 </div>
             </form>
