@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- 1 -->
+@media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+
+  <!-- 2 -->
+   @media (max-width: 1000px) {
+    grid-template-columns: repeat(auto-fill, 
+    minmax(200px, 1fr));
+  }

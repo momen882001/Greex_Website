@@ -1,69 +1,88 @@
-import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
-  
-const Footer = () => {
+import React from 'react'
+import "./Footer.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle , faInstagram , faGithub } from "@fortawesome/free-brands-svg-icons";
+
+function Footer() {
   return (
-    <Box>
-      {/* <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        GeeksforGeeks: A Computer Science Portal for Geeks
-      </h1> */}
-      <Container>
-        <Row>
-          <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">
-                <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                </span>
-            </FooterLink>
-            <FooterLink href="#">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-            </FooterLink>
-            <FooterLink href="#">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-            </FooterLink>
-            <FooterLink href="#">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-            </FooterLink>
-          </Column>
-        </Row>
-      </Container>
-    </Box>
-  );
-};
-export default Footer;
+    <div>
+
+<div class="footer">
+      <div class="container-footer">
+        <div class="box">
+          <h3>Elzero</h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <FontAwesomeIcon icon={faFacebook} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="linkedin">
+                <FontAwesomeIcon icon={faLinkedin} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="google">
+              <FontAwesomeIcon icon={faGoogle} size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="github">
+                <FontAwesomeIcon icon={faGithub} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="instgram">
+                <FontAwesomeIcon icon={faInstagram} color="white" size="lg"/>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+          </p>
+        </div>
+        <div class="box">
+          <ul class="links">
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+20123456789</span>
+              <span>+20198765432</span>
+            </div>
+          </div>
+        </div>
+        <div class="box footer-gallery">
+          <img src="imgs/gallery-01.png" alt="" />
+          <img src="imgs/gallery-02.png" alt="" />
+          <img src="imgs/gallery-03.jpg" alt="" />
+          <img src="imgs/gallery-04.png" alt="" />
+          <img src="imgs/gallery-05.jpg" alt="" />
+          <img src="imgs/gallery-06.png" alt="" />
+        </div>
+      </div>
+      <p class="copyright">Greex Company && 2022</p>
+    </div>
+    </div>
+  )
+}
+
+export default Footer
