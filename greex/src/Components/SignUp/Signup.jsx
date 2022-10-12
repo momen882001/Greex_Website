@@ -3,9 +3,31 @@ import '../Login/Login.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faUser ,faUnlockKeyhole ,faAt} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+// import swal from 'sweetalert';
+import Swal from 'sweetalert2'; 
 import imgRight from '../../assets/signup.svg'
 
 function Signup() {
+
+
+  const click = () => {
+      Swal.fire({
+        title: 'Video',
+        icon: 'info',
+        html:
+          '<iframe width="400" height="315" src="https://www.youtube.com/embed/d_elXY2Lcfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        showCloseButton: true,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          'Great!',
+        confirmButtonAriaLabel: 'Thumbs up, great!',
+        cancelButtonText:
+          'close',
+        // cancelButtonAriaLabel: 'Thumbs down'
+      })
+    }
+
   return (
     <div className="login">
 
@@ -32,7 +54,7 @@ function Signup() {
                     <input type="password" placeholder="Confirm Password" required/>
                     <FontAwesomeIcon className="icon" icon={faLock} color="white" size="2x" />
                 </div>
-                <button className="submit" style={{marginTop: "10px"}}>Submit</button>
+                <button className="submit" style={{marginTop: "10px"}} onClick={click}>Submit</button>
                 <div className="other">
                   <Link to="/login">
                   <a href="">Already have an account ?</a>
