@@ -12,7 +12,7 @@ function Footer() {
 <div class="footer">
       <div class="container-footer">
         <div class="box">
-          <h3>Elzero</h3>
+          <h3>Greex</h3>
           <ul class="social">
             <li>
               <a href="#" class="facebook">
