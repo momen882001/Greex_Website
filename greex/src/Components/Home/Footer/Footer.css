@@ -30,12 +30,13 @@
   .footer .box .social {
     display: flex;
     justify-content: center;
-    padding-left: 0px;
+    padding-left: 50px;
   }
   
   @media (max-width: 767px) {
     .footer .box .social {
       justify-content: center;
+      padding-right: 35px;
     }
   }
   
@@ -119,6 +120,30 @@
     animation-fill-mode: none;
     animation-play-state: running;
   }
+
+  .footer .box .social .twitter:hover {
+    background-color: white;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+
+  .footer .box .social .telegram:hover {
+    background-color: white;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
   
   .footer .box .text {
     line-height: 2;
@@ -129,7 +154,7 @@
   
   .footer .box .links li {
     padding: 15px 0;
-    transition: var(--main-transition);
+    transition: 0.5s ease;
     justify-content: center;
   }
   
@@ -148,7 +173,7 @@
   
   .footer .box .links li a {
     color: white;
-    transition: var(--main-transition);
+    transition: 0.5s ease;
     justify-content: center;
   }
   
@@ -157,7 +182,7 @@
     content: "\F101";
     font-weight: 900;
     margin-right: 10px;
-    color: var(--blue);
+    /* color: green; */
   }
   
   .footer .box .line {
@@ -175,7 +200,7 @@
   
   .footer .box .line i {
     font-size: 25px;
-    color: var(--blue);
+    /* color: green; */
     margin-right: 10px;
   }
   

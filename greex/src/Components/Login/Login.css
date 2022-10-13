@@ -75,6 +75,7 @@
   
   .form-control {
     width: 100%;
+    background-color: transparent;
     position: relative;
     margin-bottom: 24px;
     border: none !important;

@@ -3,7 +3,7 @@ import "./Footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGoogle , faInstagram , faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle , faInstagram , faGithub , faTwitter , faTelegram} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -13,36 +13,10 @@ function Footer() {
       <div class="container-footer">
         <div class="box">
           <h3>Greex</h3>
-          <ul class="social">
-            <li>
-              <a href="#" class="facebook">
-                <FontAwesomeIcon icon={faFacebook} color="white" size="lg"/>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="linkedin">
-                <FontAwesomeIcon icon={faLinkedin} color="white" size="lg"/>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="google">
-              <FontAwesomeIcon icon={faGoogle} size="lg"/>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="github">
-                <FontAwesomeIcon icon={faGithub} color="white" size="lg"/>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="instgram">
-                <FontAwesomeIcon icon={faInstagram} color="white" size="lg"/>
-              </a>
-            </li>
-          </ul>
           <p class="text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
           </p>
+          
         </div>
         <div class="box">
           <ul class="links">
@@ -69,14 +43,43 @@ function Footer() {
               <span>+20198765432</span>
             </div>
           </div>
-        </div>
-        <div class="box footer-gallery">
-          <img src="imgs/gallery-01.png" alt="" />
-          <img src="imgs/gallery-02.png" alt="" />
-          <img src="imgs/gallery-03.jpg" alt="" />
-          <img src="imgs/gallery-04.png" alt="" />
-          <img src="imgs/gallery-05.jpg" alt="" />
-          <img src="imgs/gallery-06.png" alt="" />
+          <ul class="social">
+            <li>
+              <a href="#" class="twitter">
+                <FontAwesomeIcon icon={faTwitter} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="facebook">
+                <FontAwesomeIcon icon={faFacebook} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="telegram">
+                <FontAwesomeIcon icon={faTelegram} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="linkedin">
+                <FontAwesomeIcon icon={faLinkedin} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="google">
+              <FontAwesomeIcon icon={faGoogle} size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="github">
+                <FontAwesomeIcon icon={faGithub} color="white" size="lg"/>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="instgram">
+                <FontAwesomeIcon icon={faInstagram} color="white" size="lg"/>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <p class="copyright">Greex Company && 2022</p>
