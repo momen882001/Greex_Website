@@ -1,11 +1,12 @@
 import React from 'react'
 import video from '../../../assets/videos/Greex description .mp4'
 import imgLeft from '../../../assets/signup.svg'
+import './Video.css'
 
 function Video() {
     
   return (
-    <div className="login">
+    <div className="login" >
       <section className="side" style={{padding:"0", margin:"0"}}>
         <img src= {imgLeft} alt="" size="2x" style={{padding:"0", margin:"0"}}/>
     </section>

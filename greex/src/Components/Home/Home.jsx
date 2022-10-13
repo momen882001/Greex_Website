@@ -9,9 +9,9 @@ function Home() {
   return (
     <div>
         <Navbar/>
-        <Login/>
+        {/* <Login/> */}
         <Video/>
-        <Signup/>
+        {/* <Signup/> */}
         <Footer/>
     </div>
   )
