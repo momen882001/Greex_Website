@@ -4,9 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faAt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import imgLeft from '../../assets/3726696.svg'
+import Navbar from '../Home/NavBar/Navbar';
 
 function Login() {
   return (
+    <div style={{padding:"0",margin:"0"}}>
+        <Navbar/>
     <div className="login" style={{padding:"0",margin:"0"}}>
 
     <section className="side" style={{padding:"0", margin:"0"}}>
@@ -40,7 +43,7 @@ function Login() {
             </form>
         </div>
     </section>
-
+    </div>
 </div>
   )
 }

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 // import swal from 'sweetalert';
 // import Swal from 'sweetalert2'; 
 import imgRight from '../../assets/signup.svg'
+import Navbar from '../Home/NavBar/Navbar';
 
 function Signup() {
 
@@ -29,8 +30,9 @@ function Signup() {
   //   }
 
   return (
+    <div>
+      <Navbar/>
     <div className="login">
-
     <section className="main">
         <div className="login-container">
             <p className="title">Sign-Up</p>
@@ -66,9 +68,9 @@ function Signup() {
 
     
     <section className="side" >
-        <img src= {imgRight} alt="" size="2x" style={{maxWidth: "90%"}}/>
+        <img src= {imgRight} alt="" size="2x" style={{maxWidth: "80%"}}/>
     </section>
-
+    </div>
 </div>
   )
 }
