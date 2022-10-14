@@ -5,8 +5,8 @@
     align-items: center;
     background: #191919;
     opacity: 1;
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
   }
   
   .Navbar > .nav-logo {

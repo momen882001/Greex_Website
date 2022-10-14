@@ -1,8 +1,8 @@
 import React , {useEffect} from 'react'
 import imgRight from '../../../assets/3721898.png'
-import booking from '../../../assets/3823344.png';
-import onRes from '../../../assets/3721898.png';
-import tracking from '../../../assets/3823344.png';
+import one from '../../../assets/pexels-andrea-beltran-13834229.jpg';
+import two from '../../../assets/pexels-mark-neal-7961265.jpg';
+import three from '../../../assets/pexels-agnese-lunecka-13957041.jpg';
 import Carousel from 'react-bootstrap/Carousel'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,41 +26,41 @@ function News() {
                 variant="dark"
                 nextLabel=""
                 prevLabel="">
-                <Carousel.Item interval={3000}>
+                <Carousel.Item interval={3000} style={{marginBottom:"3rem"}}>
             <img
-              className="d-block w-100" id="slide"
-              src= {tracking}
+              className="w-50 rounded" id="slide"
+              src= {one}
               alt="First slide"
             />
             <Carousel.Caption id='back-type'>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3  style={{color:"white"}}>First slide label</h3>
+              {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={3000} style={{marginBottom:"3rem"}}>
             <img
-              className="d-block w-100"
-              src={booking}
+              className="w-50 rounded"
+              src={two}
               alt="Second slide"
               id="slide"
             />
 
             <Carousel.Caption id='back-type'>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3  style={{color:"white"}}>Second slide label</h3>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={3000} style={{marginBottom:"3rem"}}>
             <img
-              className="d-block w-100"
-              src={onRes}
+              className="w-50 rounded"
+              src={three}
               alt="Third slide"
               id="slide"
             />
 
             <Carousel.Caption id='back-type'>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h3  style={{color:"white"}}>Third slide label</h3>
+              {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

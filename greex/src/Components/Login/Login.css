@@ -152,7 +152,7 @@
 
   
   /* ----  Responsiveness   ----  */
-  @media (max-width: 780px) {
+  @media (max-width: 850px) {
   
     .login {
         display: flex;
