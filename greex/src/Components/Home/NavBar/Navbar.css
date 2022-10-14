@@ -5,8 +5,9 @@
     align-items: center;
     background: #191919;
     opacity: 1;
-    /* position: sticky; */
-    /* top: 0; */
+    position: sticky;
+    top: 0;
+    z-index: 150;
   }
   
   .Navbar > .nav-logo {
@@ -58,13 +59,14 @@
       opacity: 0.8;
       left: 0;
       width: 100%;
-      height: 60%;
+      height: 15rem;
       transform: translateX(-100%);
       transition: all .45s;
+      z-index: 100;
     }
   
     .Navbar > .nav-items > a::before {
-        background: transparent;
+        background: white;
     }
   
     .Navbar > .nav-items.open {
