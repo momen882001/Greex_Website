@@ -13,9 +13,7 @@ const Navbar = () => {
         <Link to="/login" className="LCN"><a>Login</a></Link>
         <Link to="/signup" ><a>SignUp</a></Link>
         <Link to="/tracks" ><a>Tracks</a></Link>
-        <Link to="/courses" ><a>Courses</a></Link>
         <Link to="/awareness" ><a>Awareness</a></Link>
-        <Link to="/aboutus" ><a>AboutUs</a></Link>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

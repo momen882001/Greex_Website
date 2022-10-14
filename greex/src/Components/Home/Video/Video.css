@@ -15,6 +15,7 @@ video {
    font-size: 5rem;
    /* position: absolute; */
    width: 100%;
+   text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
 }
 
 .separator-video {

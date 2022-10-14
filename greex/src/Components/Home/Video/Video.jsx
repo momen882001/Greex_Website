@@ -1,6 +1,6 @@
 import React from 'react'
 import video from '../../../assets/videos/Greex description .mp4'
-import imgLeft from '../../../assets/1910.i309.028.F.m004.c7.cinema film production realistic transparent-03.png'
+import imgLeft from '../../../assets/3823344.png'
 import './Video.css'
 
 function Video() {
