@@ -1,11 +1,10 @@
 import React from 'react'
 import './awareness.css'
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from "react-router-dom";
 import imgLeft from '../../assets/34474031.png'
 import Navbar from '../Home/NavBar/Navbar';
+// import Video2 from './video/Video2';
 // import Video2 from './Video/Video2';
 
 
@@ -14,6 +13,7 @@ function Awareness() {
   return (
     <div>
         <Navbar/>
+        {/* <Video2/> */}
       <div className="container">
         <section className="side" style={{padding:"0", margin:"0"}}>
           <img src= {imgLeft} alt="" size="2x" style={{padding:"0", margin:"0"}}/>
