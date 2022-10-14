@@ -14,7 +14,7 @@ function Video() {
 
     <section className="main" style={{padding:"0", margin:"0",flexDirection: "column"}}>
     <p className='video-text' style={{marginTop: "-5rem", fontSize: "4rem"}}>What is Greex ?</p>
-    <video controls width="600" height="400" autoPlay loop muted>
+    <video controls width="600" height="400" autoPlay loop muted >
             <source src={video} type="video/mp4" />
         </video>
     </section>
