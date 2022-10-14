@@ -6,6 +6,7 @@ import Login from './Components/Login/Login';
 import Signup from './Components/SignUp/Signup';
 import Tracks from './Components/Tracks/Tracks';
 import Awareness from './Components/Awareness/Awareness';
+import Error from './Components/Error_page/Error';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
          <Route path="/signup" element={<Signup/>}/>
          <Route path="/tracks" element={<Tracks/>}/>
          <Route path="/awareness" element={<Awareness/>}/>
+         <Route path="*" element={<Error/>}/>
         </Routes>
       </Router>
     </div>

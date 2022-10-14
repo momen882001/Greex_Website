@@ -38,7 +38,7 @@
     width: 0;
     height: 2px;
     background: #ffffff;
-    transition: all 0.45s;
+    transition: all 0.8s;
   }
   
   .Navbar > .nav-items > a:hover::before {
