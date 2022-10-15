@@ -1,5 +1,4 @@
 import React from 'react'
-import video from '../../../assets/videos/Greex description .mp4'
 import imgLeft from '../../../assets/3823344.png'
 import './Video.css'
 
@@ -14,9 +13,10 @@ function Video() {
 
     <section className="main" style={{padding:"0", margin:"0",flexDirection: "column"}}>
     <p className='video-text' style={{marginTop: "-5rem", fontSize: "4rem"}}>What is Greex ?</p>
-    <video controls width="600" height="400" autoPlay loop muted >
-            <source src={video} type="video/mp4" />
-        </video>
+    {/* <video controls width="600" height="400" autoPlay loop muted >
+            <source src={`https://www.youtube.com/embed/HAp57D7kaI8`} type="video/mp4" />
+        </video> */}
+        <iframe className='video-youtube' width="560" height="315" src="https://www.youtube.com/embed/9ADOKs4EomM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     </div>
     <div className="separator-video"></div>

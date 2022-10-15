@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from '../../../assets/logo.png'
+// import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
+      {/* <Link to="/"> */}
       <span className="nav-logo">DevLHB</span>
+      {/* </Link> */}
       {/* <img src={logo} alt="" style={{width:"50px"}}/> */}
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to="/login" className="LCN"><a>Login</a></Link>

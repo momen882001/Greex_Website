@@ -4,16 +4,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import imgLeft from '../../assets/34474031.png'
 import Navbar from '../Home/NavBar/Navbar';
-// import Video2 from './video/Video2';
-// import Video2 from './Video/Video2';
-
+import Video2 from './video/Video2';
 
 
 function Awareness() {
   return (
     <div>
         <Navbar/>
-        {/* <Video2/> */}
+        <Video2/>
       <div className="container">
         <section className="side" style={{padding:"0", margin:"0"}}>
           <img src= {imgLeft} alt="" size="2x" style={{padding:"0", margin:"0"}}/>
