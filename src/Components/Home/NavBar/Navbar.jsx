@@ -7,9 +7,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      {/* <Link to="/"> */}
-      <span className="nav-logo">DevLHB</span>
-      {/* </Link> */}
+      <Link style={{color:"white"}} to="/">
+      <span className="nav-logo" style={{color: "white", paddingLeft: "2rem", fontSize: "25px"}}>Greex</span>
+      </Link>
       {/* <img src={logo} alt="" style={{width:"50px"}}/> */}
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to="/login" className="LCN"><a>Login</a></Link>
