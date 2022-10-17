@@ -46,39 +46,25 @@ function Footer() {
            
             <ul class="social">
               <li>
-                <a href="#" class="twitter">
                   <FontAwesomeIcon icon={faTwitter} color="white" size="lg" />
-                </a>
               </li>
               <li>
-                <a href="https://m.facebook.com/110393818263138/" class="facebook">
                   <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
-                </a>
               </li>
               <li>
-                <a href="#" class="telegram">
                   <FontAwesomeIcon icon={faTelegram} color="white" size="lg" />
-                </a>
               </li>
               <li>
-                <a href="#" class="linkedin">
                   <FontAwesomeIcon icon={faLinkedin} color="white" size="lg" />
-                </a>
               </li>
               <li>
-                <a href="#" class="google">
                   <FontAwesomeIcon icon={faGoogle} size="lg" />
-                </a>
               </li>
               <li>
-                <a href="#" class="github">
                   <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
-                </a>
               </li>
               <li>
-                <a href="#" class="instgram">
                   <FontAwesomeIcon icon={faInstagram} color="white" size="lg" />
-                </a>
               </li>
             </ul>
           </div>
