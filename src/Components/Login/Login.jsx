@@ -34,10 +34,10 @@ function Login() {
                 <button className="submit">Login</button>
                 <div className="other">
                 <Link to="">
-                  <a href="">Forget Password?</a>
+                  Forget Password?
                   </Link>
                   <Link to="/signUp">
-                  <a href="">Create an account ?</a>
+                  Create an account ?
                   </Link>
                 </div>
             </form>

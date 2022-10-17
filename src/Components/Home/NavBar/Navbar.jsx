@@ -12,10 +12,10 @@ const Navbar = () => {
       </Link>
       {/* <img src={logo} alt="" style={{width:"50px"}}/> */}
       <div className={`nav-items ${isOpen && "open"}`}>
-        <Link to="/login" className="LCN"><a>Login</a></Link>
-        <Link to="/signup" ><a>SignUp</a></Link>
-        <Link to="/tracks" ><a>Tracks</a></Link>
-        <Link to="/awareness" ><a>Awareness</a></Link>
+        <Link to="/login" className="LCN">Login</Link>
+        <Link to="/signup" >SignUp</Link>
+        <Link to="/tracks" >Tracks</Link>
+        <Link to="/awareness" >Awareness</Link>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

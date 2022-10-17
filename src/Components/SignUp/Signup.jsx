@@ -59,7 +59,7 @@ function Signup() {
                 <button className="submit" style={{marginTop: "10px"}} >Submit</button>
                 <div className="other">
                   <Link to="/login">
-                  <a href="">Already have an account ?</a>
+                  Already have an account ?
                   </Link>
                 </div>
             </form>
