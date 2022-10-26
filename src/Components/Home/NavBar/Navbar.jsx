@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <Link style={{color:"white"}} to="/">
-      <span className="nav-logo" style={{color: "white", paddingLeft: "2rem", fontSize: "25px"}}>Greexxx</span>
+      <span className="nav-logo" style={{color: "white", paddingLeft: "2rem", fontSize: "25px"}}>Greexxxx</span>
       </Link>
       {/* <img src={logo} alt="" style={{width:"50px"}}/> */}
       <div className={`nav-items ${isOpen && "open"}`}>
