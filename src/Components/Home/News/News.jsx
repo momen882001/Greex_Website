@@ -18,7 +18,7 @@ function News() {
         <div>
             <div className="login" style={{ height: "30%" }}>
                 <section className="main" style={{ padding: "0", margin: "0", flexDirection: "column" }}>
-                    <p className='video-text' data-aos="fade-right" style={{ marginTop: "-3rem", fontSize: "4rem" }}>Greex News</p>
+                    <p className='video-text' data-aos="fade-right">Greex News</p>
 
                     <div className="content" data-aos="fade-right">
                 <Carousel

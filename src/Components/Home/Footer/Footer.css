@@ -59,7 +59,7 @@
     justify-content: center;
   }
   
-  .footer .box .social .facebook:hover {
+  .footer .box .social a:hover {
     background-color: white;
     animation-name: stretch;
     animation-duration: 1.5s;
@@ -71,7 +71,7 @@
     animation-play-state: running;
   }
   
-  
+/*   
   .footer .box .social .linkedin:hover {
     background-color: white;
     animation-name: stretch;
@@ -85,7 +85,6 @@
   }
   
   .footer .box .social .google:hover {
-    /* background-image: linear-gradient(180deg, red, yellow); */
     background-color: white;
     animation-name: stretch;
     animation-duration: 1.5s;
@@ -143,7 +142,7 @@
     animation-iteration-count: infinite;
     animation-fill-mode: none;
     animation-play-state: running;
-  }
+  } */
   
   .footer .box .text {
     line-height: 2;
