@@ -65,3 +65,16 @@ body {
         display: none;
     }
   }
+  
+@media (max-width: 850px) {
+  
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .container section {
+        display: none;
+    }
+  }
