@@ -7,15 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 
+h1{
+    font-weight: 700 !important;
+    margin-bottom: 10px;
+}
+
 .container{
     display: flex;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
+
 
 .container .row{
     justify-content: center;
-
+    transform: translateX(0);
 }
 
 .container section{
@@ -48,12 +54,14 @@ body {
     line-height: 1;
 }
 
+
+
 .awr:hover{
     background-color: rgb(246 200 96);
     color: rgb(0, 0, 0);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   
     .login {
         display: flex;
@@ -66,7 +74,7 @@ body {
     }
   }
   
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   
     .login {
         display: flex;
