@@ -5,8 +5,20 @@ import { faLock, faAt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import imgLeft from '../../assets/3726696.svg'
 import Navbar from '../Home/NavBar/Navbar';
+import Swal from 'sweetalert2'; 
+
 
 function Login() {
+
+    const submit = (e) => {
+        e.preventDefault();
+        Swal.fire(
+            'Sorry',
+            'The Website is under constraction',
+            'warning'
+          )
+        }
+
   return (
     <div style={{padding:"0",margin:"0"}}>
         <Navbar/>
@@ -31,7 +43,7 @@ function Login() {
                     <input type="password" placeholder="Password" required/>
                     <FontAwesomeIcon className="icon" icon={faLock} color="white" size="2x" />
                 </div>
-                <button className="submit">Login</button>
+                <button className="submit" onClick={submit}>Login</button>
                 <div className="other">
                 <Link to="">
                   Forget Password?
