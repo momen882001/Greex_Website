@@ -6,13 +6,24 @@
     margin-right: 1rem;
 }
 
+@media (max-width: 610px ) {
+  
+    .video-youtube {
+        width: 380px;
+        height: 320px;
+    }
+    .video-text {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top:-7rem; 
+    }
+  }
+
 
 .video-text {
-    margin-top: 2rem;
-   font-size: 5rem;
-   /* position: absolute; */
+   font-size: 3rem;
    width: 100%;
-   text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
+   /* text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2); */
 }
 
 .separator-video {
