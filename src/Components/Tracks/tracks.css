@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .header {
     width: 50rem;
     margin-left: auto;
@@ -14,15 +18,19 @@
 
 .tracks-cont{
     width: 80rem;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(12%);
+    /* margin-left: auto;
+    margin-right: auto; */
+    transform: translateY(10vh);
 }
 
 .card .image img{
     width: 95%;
     border-radius: 3px;
     margin-top: 0.5rem;
+}
+
+.card .text{
+    padding: 5px;
 }
 
 .card .text h2{
@@ -42,12 +50,18 @@
 .card{
     transition: 0.3s;
     cursor: pointer;
-    height: 16.5rem !important;
+    min-height: 18rem !important;
     margin-bottom: 1rem;
-    width: 100%;
 }
 
 .card:hover{
     background-color: rgb(246 200 96);
     color: rgb(0, 0, 0);
+
+}
+
+
+.row{
+    width: 90vw;
+    transform: translateX(5vw);
 }
