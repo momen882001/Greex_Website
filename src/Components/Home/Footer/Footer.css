@@ -12,7 +12,7 @@
   
   .footer .container-footer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
     gap: 70px;
     padding-left: 80px;
     padding-right: 80px;

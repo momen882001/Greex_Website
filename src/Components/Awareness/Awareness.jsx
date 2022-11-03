@@ -12,7 +12,7 @@ function Awareness() {
     <div>
         <Navbar/>
         <Video2/>
-        <h1>Our Tracks</h1>
+        <p className='video-text'>Our Articles</p>
       <div className="container">
         <section className="side" style={{padding:"0", margin:"0"}}>
           <img src= {imgLeft} alt="" size="2x" style={{padding:"0", margin:"0"}}/>
