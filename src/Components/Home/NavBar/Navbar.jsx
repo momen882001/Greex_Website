@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import logo from '../../../assets/logo.png'
 // import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <Link style={{color:"white"}} to="/">
-      <span className="nav-logo" style={{color: "white", paddingLeft: "2rem", fontSize: "25px"}}>Greex</span>
+      <img src={logo} alt="" />
       </Link>
       {/* <img src={logo} alt="" style={{width:"50px"}}/> */}
       <div className={`nav-items ${isOpen && "open"}`}>

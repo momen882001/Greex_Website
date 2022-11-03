@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 150;
+    padding: 0 2rem;
   }
   
   .Navbar > .nav-logo {
@@ -127,4 +128,9 @@
     }
   
   
+  }
+
+  .Navbar img{
+    width: 7rem;
+    margin-left: 1rem;
   }
